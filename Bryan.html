@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Deluka's Game Store</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+</style>
+</head>
+<body class="w3-content" style="max-width:1200px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <h3 class="w3-wide"><b>Deluka's Game Store</b></h3>
+  </div>
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+    <a href="#" class="w3-bar-item w3-button">Monitor</a>
+    <a href="#" class="w3-bar-item w3-button">PC</a>
+    <a href="#" class="w3-bar-item w3-button">Mouse</a>
+    <a href="#" class="w3-bar-item w3-button">Teclado</a>
+  </div>
+
+  <a href="#footer" class="w3-bar-item w3-button w3-padding">Contato</a> 
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Inscreva-se</a> 
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24 w3-wide">Deluka's</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Top header -->
+  <header class="w3-container w3-xlarge">
+    <p class="w3-left">Monitor</p>
+    <p class="w3-right">
+      <i class="fa fa-shopping-cart w3-margin-right"></i>
+      <i class="fa fa-search"></i>
+    </p>
+  </header>
+
+  <!-- Image header -->
+  <div class="w3-display-container w3-container">
+    <img src="monitor1.jpg" alt="Monitor" style="width:50%">
+      <h1 class="w3-hide-large w3-hide-medium">Samsung C34G55TWWL Odyssey 34'</h1>
+    <p><a link rel="stylesheet" href="https://www.amazon.com.br/dp/B096WGMXG2/ref=sspa_dk_detail_5?psc=1&pd_rd_i=B096WGMXG2&pd_rd_w=64Q2r&content-id=amzn1.sym.8335ba7f-6b36-4ee7-ba9a-34ad15dd004c&pf_rd_p=8335ba7f-6b36-4ee7-ba9a-34ad15dd004c&pf_rd_r=1H57AA6C3Z53H1DG08SM&pd_rd_wg=wosy7&pd_rd_r=067e4e9e-9c76-436b-9063-9b78364eb649&s=computers&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy" class="w3-button w3-black w3-padding-large w3-large">Compre agora> </a></p>
+    <p>MONITOR SAMSUNG ODYSSEY OLED G8 <br><b>R$2.999,99 </b></p>
+</div>
+    <div class="w3-display-container w3-container">
+    <img src="monitor2.jpg" alt="Monitor" style="width:50%">
+      <h1 class="w3-hide-large w3-hide-medium"></h1>
+      <p>Samsung Odyssey Neo G9 49"<br><b>R$8.599,00 </b></p> 
+    <p><a link rel="stylesheet" href= https://www.amazon.com.br/dp/B0B9PC6D8T/ref=sspa_dk_detail_3?psc=1&pd_rd_i=B0B9PC6D8T&pd_rd_w=n1TZq&content-id=amzn1.sym.dd14805d-2347-4e14-a8a3-4a68eee2b6c8&pf_rd_p=dd14805d-2347-4e14-a8a3-4a68eee2b6c8&pf_rd_r=10BMCTT1KWQPCDXZSY6V&pd_rd_wg=KMssQ&pd_rd_r=cc43ca37-2c1b-4b59-8bd8-0c300bf10c2d&s=computers&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw class="w3-button w3-black w3-padding-large w3-large">Compre agora> </a></p>
+    </div>
+    <div class="w3-display-container w3-container">
+        <img src="monitor3.jpg" alt="Monitor" style="width:50%">
+          <h1 class="w3-hide-large w3-hide-medium"></h1>
+          <p>Monitor Gamer Curvo Samsung Odyssey 27"  <br><b>R$3.099,99 </b></p> 
+        <p><a link rel="stylesheet" href=https://www.amazon.com.br/dp/B0BTJ7TMSP/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B0BTJ7TMSP&pd_rd_w=n1TZq&content-id=amzn1.sym.dd14805d-2347-4e14-a8a3-4a68eee2b6c8&pf_rd_p=dd14805d-2347-4e14-a8a3-4a68eee2b6c8&pf_rd_r=10BMCTT1KWQPCDXZSY6V&pd_rd_wg=KMssQ&pd_rd_r=cc43ca37-2c1b-4b59-8bd8-0c300bf10c2d&s=computers&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw  class="w3-button w3-black w3-padding-large w3-large">Compre agora> </a></p>
+        </div>
+        <br><br><br>
+
+
+  <!-- Product grid -->
+  <br><br>
+  <h2> PC</h2>
+  <div class="w3-row w3-grayscale">
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="pc1.jpg" style="width:100%">
+        <p>PC GAMER RYZEN 7 5700G, 16GB DDR4 3200MHZ, SSD M.2 NVME 250GB, VEGA 7<br><b>R$2.780,99</b></p>
+            <p><a link rel="stylesheet" href= https://www.amazon.com.br/GAMER-RYZEN-5700G-3200MHZ-250GB/dp/B0C8VLGRTQ/ref=asc_df_B0C8VLGRTQ/?tag=googleshopp00-20&linkCode=df0&hvadid=647406073659&hvpos=&hvnetw=g&hvrand=16142074103015886835&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001646&hvtargid=pla-2202118363810&psc=1&mcid=61f7d90251f938d894bdd73a28c3a065 class="w3-button w3-black w3-padding-large w3-large">Compre agora> </a></p>
+
+      </div>
+        <div class="w3-container">
+          <img src="pc2.jpg" style="width:100%">
+          <p>PC Gamer ITX Arena, Ryzen 5 5600G, Radeon™ Graphics Vega 7, 16GB Ram, SSD 480GB, Gabinete RGB<br><b> R$2.399,00</b></p>
+          <p><a link rel="stylesheet" href= https://www.amazon.com.br/Gamer-ITX-RadeonTM-Graphics-Gabinete/dp/B0B1ZLNWGD/ref=sr_1_4?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=12WJ3TSM51C2E&keywords=pc&qid=1701192915&s=computers&sprefix=pc%2Ccomputers%2C201&sr=1-4&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147 class="w3-button w3-black w3-padding-large w3-large">Compre agora> </a></p>
+        </div>
+        <div class="w3-container">
+          <img src="pc3.jpg" style="width:100%">
+          <p>Pc Gamer Computador Completo NoLag Amd Ryzen 7, Radeon™ Graphics Vega, 32GB Ram, SSD 1TB NVMe, Gabinete RGB<br><b> R$3.980,00</b></p>
+          <p><a link rel="stylesheet" href= https://www.amazon.com.br/dp/B0C3XXS35Z/ref=sspa_dk_detail_4?psc=1&pd_rd_i=B0C3XXS35Z&pd_rd_w=aI8rv&content-id=amzn1.sym.dd14805d-2347-4e14-a8a3-4a68eee2b6c8&pf_rd_p=dd14805d-2347-4e14-a8a3-4a68eee2b6c8&pf_rd_r=SADWV7SHGMVVMMG0YE9S&pd_rd_wg=OFflq&pd_rd_r=a025a8a7-b65a-485a-8c86-642f97b3a0ee&s=computers&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw class="w3-button w3-black w3-padding-large w3-large">Compre agora> </a></p>
+  
+        </div>
+    </div>
+
+   
+    
+    <div class="w3-row w3-grayscale"> 
+        <br><br><br>
+        <h2> Mouse</h2>
+      <div class="w3-col l3 s6">
+        <div class="w3-container">
+          <img src="mouse1.jpg" style="width:100%">
+          <p>Razer Mouse <br><b>R$125,00 </b></p>
+              <p><a link rel="stylesheet" href=https://www.amazon.com.br/Razer-Mouse-essencial-jogos-DeathAdder/dp/B094PS5RZQ/ref=sr_1_19?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1EA5SABCPPXPD&keywords=mouse&qid=1701195550&s=computers&sprefix=mouse%2Ccomputers%2C273&sr=1-19&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9&th=1 class="w3-button w3-black w3-padding-large w3-large">Compre agora> </a></p>
+  
+        </div>
+        </div>
+        <br><br><br>
+        <div class="w3-col l3 s6">
+            <div class="w3-container">
+              <img src="mouse2.jpg" style="width:100%">
+              <p>Mouse Gamer Sem Fio Logitech G502 X LIGHTSPEED com Switch LIGHTFORCE <br><b>R$599,89 </b></p>
+                  <p><a link rel="stylesheet" href=https://www.amazon.com.br/dp/B0B8JLJYNP/ref=sspa_dk_detail_1?pd_rd_i=B0B8JLJYNP&pd_rd_w=wYvON&content-id=amzn1.sym.dd14805d-2347-4e14-a8a3-4a68eee2b6c8&pf_rd_p=dd14805d-2347-4e14-a8a3-4a68eee2b6c8&pf_rd_r=5VHQXQ2KDCR64M0NW22Y&pd_rd_wg=CWiYn&pd_rd_r=91c50c26-5c95-4c72-9aaf-360fa058ca1c&s=computers&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1 class="w3-button w3-black w3-padding-large w3-large">Compre agora> </a></p>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="w3-col l3 s6">
+                <div class="w3-container">
+                  <img  src="mouse3.jpg" style="width:100%">
+                  <p> Mouse Gamer Logitech G502 HERO com RGB LIGHTSYNC<br><b> R$317,64</b></p>
+                      <p><a link rel="stylesheet" href=https://amazon.com.br/Logitech-LIGHTSYNC-Ajustes-Bot%C3%B5es-Program%C3%A1veis/dp/B07JM7DR7K/ref=pd_sbs_sccl_3_1/136-5418111-9145735?pd_rd_w=YEIqD&content-id=amzn1.sym.3ae6fa38-6f93-4732-befe-6892b1315943&pf_rd_p=3ae6fa38-6f93-4732-befe-6892b1315943&pf_rd_r=4F4YXX2CAE2Y01QWZ9D2&pd_rd_wg=ahFYv&pd_rd_r=966bf82b-31d5-42cc-b05d-fee429a845a0&pd_rd_i=B07JM7DR7K&psc=1 class="w3-button w3-black w3-padding-large w3-large">Compre agora> </a></p>
+                    </div>
+                </div>
+  <div>
+                
+                      
+</div>
+</div>
+
+
+<div class="w3-row w3-grayscale"> 
+    <br><br><br>
+    <h2> Teclado</h2>
+    <br><br><br>
+    
+  <div class="w3-col l3 s6">
+    <div class="w3-container">
+      <img src="teclado1.jpg" style="width:100%">
+      <p>TECLADO REDRAGON GAMER <br><b>R$184,80 </b></p>
+          <p><a link rel="stylesheet" href=https://www.amazon.com.br/TECLADO-REDRAGON-MEMBRANA-BRANCO-K509W-RGB/dp/B0CD2W1WP6/ref=sr_1_26?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3IF3UUK33JU9M&keywords=teclado&qid=1701200898&s=computers&sprefix=teclado%2Ccomputers%2C189&sr=1-26&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d class="w3-button w3-black w3-padding-large w3-large">Compre agora> </a></p>
+
+    </div>
+    </div>
+  
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="teclado2.jpg" style="width:100%">
+        <p>Redragon TECLADO MECANICO GAMER FIZZ RGB PRETO SWITCH AZUL <br><b>R$195,00</b></p>
+            <p><a link rel="stylesheet" href=https://www.amazon.com.br/Redragon-TECLADO-MECANICO-GAMER-SWITCH/dp/B09YMSX89C/ref=pd_sbs_sccl_4_1/136-5418111-9145735?pd_rd_w=hh2WI&content-id=amzn1.sym.3ae6fa38-6f93-4732-befe-6892b1315943&pf_rd_p=3ae6fa38-6f93-4732-befe-6892b1315943&pf_rd_r=3ZKJA4QS6WV36VXXJ3PC&pd_rd_wg=hkDsl&pd_rd_r=2f7b7906-6f80-4974-aaf2-749dfdf188fe&pd_rd_i=B09YMSX89C&psc=1 class="w3-button w3-black w3-padding-large w3-large" >Compre agora> </a></p>
+  
+      </div>
+      </div>
+
+      <div class="w3-col l3 s6">
+        <div class="w3-container">
+          <img src="teclado3.jpg" style="width:100%">
+          <p>Teclado Mecânico Gamer Logitech G PRO com Layout US, RGB LIGHTSYNC <br><b>R$568,99</b></p>
+              <p><a link rel="stylesheet" href=https://www.amazon.com.br/dp/B07QQB9VCV/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B07QQB9VCV&pd_rd_w=6GSeO&content-id=amzn1.sym.dd14805d-2347-4e14-a8a3-4a68eee2b6c8&pf_rd_p=dd14805d-2347-4e14-a8a3-4a68eee2b6c8&pf_rd_r=M77VVPBGMBQ1QB6BRBAM&pd_rd_wg=qJK2d&pd_rd_r=c8488d65-5e88-4a13-a1ff-4be8b61e7b94&s=computers&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw class="w3-button w3-black w3-padding-large w3-large" >Compre agora> </a></p>
+    
+        </div>
+        </div>
+</div>
+
+  <!-- Subscribe section -->
+  <div class="w3-container w3-black w3-padding-32">
+    <h1>Para receber mais informações</h1>
+    <p>clique:</p>
+    <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+    <button type="button" class="w3-button w3-red w3-margin-bottom">Inscreva-se</button>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
+    <div class="w3-row-padding">
+      <div class="w3-col s4">
+        <h4>Contato</h4>
+        <p>Dúvidas? Pergunte.</p>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
+          <button type="submit" class="w3-button w3-block w3-black">Enviar</button>
+        </form>
+      </div>
+
+      <div class="w3-col s4">
+        <h4>Sobre</h4>
+        <p><a href="#">Sobre nós</a></p>
+        <p><a href="#">Suporte</a></p>
+        <p><a href="#">Pagamento</a></p>
+        <p><a href="#">Cartão de presente</a></p>
+        <p><a href="#">Retornar</a></p>
+        <p><a href="#">Ajuda</a></p>
+      </div>
+
+      <div class="w3-col s4 w3-justify">
+        <h4>Loja</h4>
+        <p><i class="fa fa-fw fa-map-marker"></i> Deluka's Games Store</p>
+        <p><i class="fa fa-fw fa-phone"></i> (22)99990000</p>
+        <p><i class="fa fa-fw fa-envelope"></i> delukasgamestore@gmail.com</p>
+        <h4>Aceitamos</h4>
+        <p><i class="fa fa-fw fa-cc-amex"></i> Pix</p>
+        <p><i class="fa fa-fw fa-credit-card"></i> Cartão de crédito</p>
+        <br>
+        <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
+        <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
+        <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
+        <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
+        <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
+      </div>
+    </div>
+  </footer>
+
+  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+
+  <!-- End page content -->
+</div>
+
+<!-- Newsletter Modal -->
+<div id="newsletter" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom" style="padding:32px">
+    <div class="w3-container w3-white w3-center">
+      <i onclick="document.getElementById('newsletter').style.display='none'" class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>
+      <h2 class="w3-wide">Quer receber ofertas e promoções?</h2>
+      <p>É só se inscrever na nossa loja para estar por dentro de todas as nossas ofertas!</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('newsletter').style.display='none'">Inscreva-se</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// Accordion 
+function myAccFunc() {
+  var x = document.getElementById("demoAcc");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Click on the "Monitor" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
